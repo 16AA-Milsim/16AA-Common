@@ -1,0 +1,15 @@
+#define MAINPREFIX z
+#define PREFIX l6AA
+
+#include "script_version.hpp"
+
+#define VERSION MAJOR.MINOR
+#define VERSION_AR MAJOR,MINOR,PATCH,BUILD
+
+#define REQUIRED_VERSION 1.88
+
+#ifdef COMPONENT_BEAUTIFIED
+    #define COMPONENT_NAME QUOTE(l6AA - COMPONENT_BEAUTIFIED)
+#else
+    #define COMPONENT_NAME QUOTE(l6AA - COMPONENT)
+#endif

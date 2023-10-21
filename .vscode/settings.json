@@ -1,0 +1,56 @@
+{
+    "files.associations": {
+        "*.hpp": "sqf",
+        "*.h":   "ext",
+        "*.inc": "ext",
+        "*.cpp": "sqf",
+        "*.ext": "ext",
+        "*.fsm": "ext"
+    },
+    "psi-header.config.license" : "GPL-3.0-only",
+    "psi-header.lang-config": [
+        {
+            "language": "sqf",
+            "rootDirFileName": "mod.cpp",
+            "beforeHeader": ["#include \"script_component.hpp\""],
+            "forceToTop": true,
+            "blankLinesAfter": 1,
+        }
+    ],
+    "psi-header.changes-tracking": {
+        "isActive": true,
+        "include": ["sqf"],
+        "modDate": "Last Update:",
+        "modDateFormat": "YYYY-MM-DD",
+        "autoHeader": "manualSave"
+    },
+    "psi-header.templates": [
+        {
+            "language": "sqf",
+            "template": [
+                "File: <<filename>>",
+                "Author: <author>",
+                "Date: <<filecreated('YYYY-MM-DD')>>",
+                "Last Update:",
+                "License: <<licensename>> - <<licenseurl>>",
+                "",
+                "Function description",
+                "",
+                "Arguments:",
+                "0: Objects <ARRAY>",
+                "1: All <BOOL>",
+                "",
+                "Return Value:",
+                "Function reached the end [BOOL]",
+                "",
+                "Example:",
+                "[[bob, alice], false] call l6AA_main_fnc_example",
+                "",
+                "Public: No"
+            ]
+        }
+    ],
+    "todo-tree.general.statusBar": "tags",
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.tree.flat": true,
+}
