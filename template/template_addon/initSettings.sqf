@@ -21,4 +21,4 @@
  * Public: No
  */
 
-private _category = "16AA - Logging";
+private _category = "16AA - Template Addon";
