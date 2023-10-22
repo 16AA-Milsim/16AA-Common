@@ -1,10 +1,10 @@
-// #pragma sls disable file SQFVM-10005 //disable duplicate MACRO definition warning
+#pragma sls disable file SQFVM-10005 //disable duplicate MACRO definition warning
 #include "script_component.hpp"
 /*
  * File: initSettings.sqf
  * Author: Mildly_Interested, 3Mydlo3
  * Date: 2023-08-01
- * Last Update: 2023-10-17
+ * Last Update: 2023-10-22
  * License: GNU General Public License v3.0 only - https://www.gnu.org/licenses/gpl-3.0-standalone.html
  *
  * Sets up CBA settings for the ACRE submodule.
@@ -21,7 +21,7 @@
  * Public: No
  */
 
-private _category = "ACRE Persistence";
+private _category = "16AA - ACRE";
 
 //Amount of radios to restore
 [

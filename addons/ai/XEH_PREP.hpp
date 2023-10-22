@@ -1,0 +1,2 @@
+PREP(addMagazineOnReload);
+PREP(removeRifleIfLauncherEquipped);
