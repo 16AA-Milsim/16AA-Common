@@ -8,7 +8,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"l6AA_main", "CBA_settings"};
-        authors[] = {"Darojax, Mildly_Interested"}; // sub array of authors, considered for the specific addon, can be removed or left empty {}
+        authors[] = {"Darojax", "Mildly_Interested"}; // sub array of authors, considered for the specific addon, can be removed or left empty {}
         author = "16 Air Assault Milsim Community"; // primary author name, either yours or your team's, considered for the whole mod
         VERSION_CONFIG;
     };

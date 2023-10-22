@@ -1,5 +1,5 @@
-#define COMPONENT ai
-#define COMPONENT_BEAUTIFIED AI
+#define COMPONENT logging
+#define COMPONENT_BEAUTIFIED LOGGING
 #include "\z\l6AA\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

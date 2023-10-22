@@ -3,7 +3,7 @@
 #include "\z\l6AA\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
-#define DISABLE_COMPILE_CACHE
+// #define DISABLE_COMPILE_CACHE
 
 #ifdef DEBUG_ENABLED_ADDON_TEMPLATE
     #define DEBUG_MODE_FULL
