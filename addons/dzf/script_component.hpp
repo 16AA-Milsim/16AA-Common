@@ -1,5 +1,5 @@
-#define COMPONENT acre
-#define COMPONENT_BEAUTIFIED ACRE
+#define COMPONENT dzf
+#define COMPONENT_BEAUTIFIED DZF
 #include "\z\l6AA\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

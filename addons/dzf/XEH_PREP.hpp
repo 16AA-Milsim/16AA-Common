@@ -1,1 +1,2 @@
-
+PREP(restoreUnitInsignia);
+PREP(setUnitInsignia);
