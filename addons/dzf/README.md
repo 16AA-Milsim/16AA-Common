@@ -1,6 +1,6 @@
 ## Drop Zone Flashes 
 
-Defines Unit insignia that are available for uniforms and automatically assigns them based on group name.
+Defines Unit insignia that are available for uniforms and automatically assigns them based on group name.  
 
 ## Authors
 
