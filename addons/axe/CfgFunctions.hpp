@@ -1,7 +1,7 @@
 class CfgFunctions {
     class grad_axe {
         class axe {
-            file = "x\grad\addons\axe\functions";
+            file = "z\l6AA\addons\axe\functions";
 
             class checkCutDown {};
             class cutDownTree {};
