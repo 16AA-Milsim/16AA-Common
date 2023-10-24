@@ -18,5 +18,5 @@ if (hasInterface) then {
     [{
         if !GVAR(enableAddon) exitWith {};
         [QGVAR(handleConnected), [player, getPlayerUID player]] call CBA_fnc_serverEvent;
-    }] call EFUNC(common,runAfterSettingsInit);
+    }] call FUNC(runAfterSettingsInit);
 };
