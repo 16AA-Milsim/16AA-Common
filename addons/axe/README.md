@@ -9,6 +9,7 @@ Adds an axe to chop down trees and bushes. ACE-Interact with tree or bush while 
 * UI icon "Axe" by Atif Arshad from the Noun Project, adapted by McDiod, ([CC BY 3.0](https://creativecommons.org/licenses/by/3.0/legalcode))
 * item picture by Great Pink Taco, Wikipedia EN, public domain
 * [chopping sound](https://freesound.org/s/401730/) by tomattka, adapted by Salbei, ([CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/legalcode))
+* (gruppe_adler_mod)[https://github.com/gruppe-adler/gruppe_adler_mod/tree/master/addons/axe]
 
 #### Pictures
 

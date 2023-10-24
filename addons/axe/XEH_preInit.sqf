@@ -6,7 +6,7 @@ SCRIPT(XEH_preInit);
     QGVAR(setting_timeFactor),
     "SLIDER",
     "Chopping time factor (higher means longer)",
-    "GRAD Axe",
+    "16AA - Axe",
     [0.1,10,1,1],
     1
 ] call CBA_settings_fnc_init;
@@ -15,7 +15,7 @@ SCRIPT(XEH_preInit);
     QGVAR(setting_maxTime),
     "SLIDER",
     "Max. chopping time (no matter how tall the tree)",
-    "GRAD Axe",
+    "16AA - Axe",
     [5,600,40,0],
     1
 ] call CBA_settings_fnc_init;
