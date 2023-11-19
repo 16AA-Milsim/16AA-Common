@@ -2,9 +2,6 @@
 
 Arma can crash randomly, internet connections may break, power shortages and other random accidents may happen. This addon, originaly created as mission script by Madin, aims to mitigate the effects of such issues by allowing players teleport back to action after reconnect. No more annoying pings for Zeus, reconnect and jump straight to where you were before disconnected, including restoring your loadout.
 
-### Credits
-- taken from [ArmaForces](https://github.com/ArmaForces/Mods/tree/master/addons/back_to_game)
-
 ### Choose where to go
 
 Player can choose where he wants to be teleported (soon™) based on server settings or he might don't want teleport at all.
