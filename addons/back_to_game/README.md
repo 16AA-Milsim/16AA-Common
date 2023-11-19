@@ -24,3 +24,6 @@ If you choose to teleport, you will have your full loadout restored
 
 - [3Mydlo3](https://github.com/3Mydlo3)
 - [Madin5](https://github.com/Madin5)
+
+#### Source
+https://github.com/ArmaForces/Mods/tree/master/addons/back_to_game

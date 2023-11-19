@@ -8,5 +8,5 @@ Brazenly taken from Raimo's afi_cluttercutter contribution to the AFI mod.
 
 * Fusselwurm
 
-#### Credits
-* [gruppe_adler_mod](https://github.com/gruppe-adler/gruppe_adler_mod/tree/master/addons/clutterCutter)
+#### Source
+https://github.com/gruppe-adler/gruppe_adler_mod/tree/master/addons/clutterCutter

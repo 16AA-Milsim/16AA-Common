@@ -3,3 +3,6 @@ This adds a message box to the escape menu. Allows players to send message to al
 
 #### Maintainer(s)
 * McDiod
+
+#### Source
+https://github.com/gruppe-adler/gruppe_adler_mod/tree/master/addons/adminMessages

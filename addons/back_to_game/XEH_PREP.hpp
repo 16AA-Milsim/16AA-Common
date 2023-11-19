@@ -11,3 +11,4 @@ PREP(getPlayerData);
 PREP(savePlayerData);
 
 PREP(hasDisconnected);
+PREP(runAfterSettingsInit);

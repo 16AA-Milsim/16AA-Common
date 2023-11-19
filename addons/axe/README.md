@@ -14,3 +14,6 @@ Adds an axe to chop down trees and bushes. ACE-Interact with tree or bush while 
 #### Pictures
 
 <img src="http://i.imgur.com/iPSgGEV.png" width="512" />
+
+#### Source
+https://github.com/gruppe-adler/gruppe_adler_mod/tree/master/addons/axe
