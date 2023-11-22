@@ -1,3 +1,5 @@
+#pragma sls disable file SQFVM-10005 //disable duplicate MACRO definition warning
+#include "script_component.hpp"
 private _category = "16AA - Back To Game by ArmaForces";
 
 [
