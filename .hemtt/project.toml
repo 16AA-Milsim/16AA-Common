@@ -13,3 +13,6 @@ include = [
 [version]
 git_hash = 0 # Disabled
 path = "addons/main/script_version.hpp"
+
+[hemtt.release]
+folder = "16AA-Common"
