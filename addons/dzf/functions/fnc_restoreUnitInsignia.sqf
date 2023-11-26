@@ -3,7 +3,7 @@
  * File: fnc_restoreUnitInsignia.sqf
  * Author: Mildly_Interested
  * Date: 2023-10-21
- * Last Update: 2023-10-21
+ * Last Update: 2023-11-26
  * License: GNU General Public License v3.0 only - https://www.gnu.org/licenses/gpl-3.0-standalone.html
  *
  * Get insignia of corpse and apply to respawned unit.
@@ -27,7 +27,7 @@ player addEventHandler ["Respawn", {
         params ["_unit", "_insignia"];
         sleep 1;
         isNil {
-            _unit setVariable ["BIS_fnc_setUnitInsignia_class", nil]; // you can also do [_unit, ""] call BIS_fnc_setUnitInsignia, but this way is faster (plus no network traffic)
+            _unit setVariable ["BIS_fnc_setUnitInsignia_class", nil]; //you can also do [_unit, ""] call BIS_fnc_setUnitInsignia, but this way is faster and without network traffic
             [_unit, _insignia] call BIS_fnc_setUnitInsignia;
         };
     };
