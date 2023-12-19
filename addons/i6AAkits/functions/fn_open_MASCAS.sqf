@@ -1,0 +1,10 @@
+_this removeItem 'i6AA_MASCAS';
+for "_i" from 1 to 30 do {_this addItemToBackpack "ACE_quickclotBandage"};
+for "_i" from 1 to 20 do {_this addItemToBackpack "ACE_elasticBandage"};
+for "_i" from 1 to 60 do {_this addItemToBackpack "ACE_packingBandage"};
+for "_i" from 1 to 12 do {_this addItemToBackpack "ACE_tourniquet"};
+for "_i" from 1 to 6 do {_this addItemToBackpack "kat_chestSeal"};
+for "_i" from 1 to 6 do {_this addItemToBackpack "kat_ncdKit"};
+for "_i" from 1 to 6 do {_this addItemToBackpack "i6AA_IFAK"};
+_this addItemToBackpack 'SmokeShellPurple';
+for "_i" from 1 to 4 do {_this addItemToBackpack "ACE_Chemlight_UltraHiOrange"};
