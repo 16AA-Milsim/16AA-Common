@@ -11,7 +11,6 @@ class CfgVehicles {
 					icon="\kits\data\ifak_interaction.paa";
 					exceptions[]=
 					{
-							"isNotInside",
 							"isNotSitting"
 					};
 				class i6AA_open_ifak
@@ -22,7 +21,6 @@ class CfgVehicles {
 					icon="\kits\data\Medic_Pouch.paa";
 					exceptions[]=
 					{
-							"isNotInside",
 							"isNotSitting"
 					};
 				};
