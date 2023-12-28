@@ -1,10 +1,10 @@
 class CfgFunctions
 {
-	class i6AAkits
+	class kits
 	{
 		class functions
 		{
-		file="\i6AAkits\functions";
+		file="\kits\functions";
 			class open_Surgery {};
 			class open_Transfusion {};
 			class open_DRUGS {};

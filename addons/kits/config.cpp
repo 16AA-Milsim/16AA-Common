@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class i6AAkits
+	class kits
 	{
 		name="i6AA Medical Kits";
 		weapons[]=
@@ -30,7 +30,7 @@ class CfgPatches
 			"CBA_XEH",
 			"CBA_MAIN"
 		};
-		author="Challenger";
+		author="Challenger, A/Cpl Smith";
 	};
 };
 
