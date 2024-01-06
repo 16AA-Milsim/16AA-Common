@@ -10,6 +10,7 @@ for "_i" from 1 to 3 do {_this addItemToBackpack 'ACE_adenosine'};
 for "_i" from 1 to 5 do {_this addItemToBackpack 'kat_amiodarone'};
 for "_i" from 1 to 3 do {_this addItemToBackpack 'kat_atropine'};
 for "_i" from 1 to 3 do {_this addItemToBackpack 'kat_fentanyl'};
+for "_i" from 1 to 3 do {_this addItemToBackpack 'kat_nitroglycerin'};
 _this addItemToBackpack 'kat_Carbonate';
 _this addItemToBackpack 'kat_Penthrox';
 _this addItemToBackpack 'kat_Painkiller';
