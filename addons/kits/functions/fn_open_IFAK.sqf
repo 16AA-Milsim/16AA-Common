@@ -20,4 +20,3 @@ _this addItem 'ACE_tourniquet';
 _this addItem 'ACE_tourniquet';
 _this addItem 'kat_guedel';
 _this addItem 'kat_chestSeal';
-_this addItem 'kat_ncdKit';
