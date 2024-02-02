@@ -1,6 +1,6 @@
 #include "script_component.hpp"
 
-params ["_sender","_UID","_message",["_receiveCondition",{[] call grad_adminMessages_fnc_isAdminOrZeus}],["_receiveConditionParams",[]]];
+params ["_sender","_UID","_message",["_receiveCondition",{[] call l6AA_adminMessages_fnc_isAdminOrZeus}],["_receiveConditionParams",[]]];
 
 if !(hasInterface) exitWith {};
 if !(_receiveConditionParams call _receiveCondition) exitWith {};
