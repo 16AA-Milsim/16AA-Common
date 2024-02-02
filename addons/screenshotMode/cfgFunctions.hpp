@@ -1,5 +1,5 @@
 class CfgFunctions {
-	class grad_screenshotMode {
+	class l6AA_screenshotMode {
 		class misc
 		{
 			file = "z\l6AA\addons\screenshotMode\functions";
