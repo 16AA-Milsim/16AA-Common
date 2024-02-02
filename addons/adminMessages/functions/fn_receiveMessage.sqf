@@ -1,6 +1,6 @@
 #include "script_component.hpp"
 
-params ["_sender","_UID","_message",["_receiveCondition",{[] call l6AA_adminMessages_fnc_isAdminOrZeus}],["_receiveConditionParams",[]]];
+params ["_sender","_UID","_message",["_receiveCondition",{[] call grad_adminMessages_fnc_isAdminOrZeus}],["_receiveConditionParams",[]]];
 
 if !(hasInterface) exitWith {};
 if !(_receiveConditionParams call _receiveCondition) exitWith {};
@@ -14,6 +14,6 @@ if (grad_adminMessages_latestConvos find [toUpper _sender,_UID] < 0) then {
 };
 if (count grad_adminMessages_latestConvos > 5) then {grad_adminMessages_latestConvos resize 5};
 
-[_sender,_message] call FUNC(displayMessage);
+[_sender,_message] call grad_adminMessages_fnc_displayMessage;
 
 playSound "3DEN_notificationWarning";
