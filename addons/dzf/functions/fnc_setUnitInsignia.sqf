@@ -33,7 +33,7 @@ switch true do {
     case (_group_player in GVAR(itc_group_array)): {[player,"16aa_l_itc_dzf"] call BIS_fnc_setUnitInsignia;};
     case (_group_player in GVAR(jhc_group_array)): {[player,"16aa_l_jhc_dzf"] call BIS_fnc_setUnitInsignia;};
     case (_group_player in GVAR(mi_group_array)): {[player,"16aa_l_mi_dzf"] call BIS_fnc_setUnitInsignia;};
-    default {[player,"16aa_s_pb_dzf"] call BIS_fnc_setUnitInsignia;};
+    default {[player,""] call BIS_fnc_setUnitInsignia;};
 };
 
 true
