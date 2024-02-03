@@ -1,4 +1,3 @@
-#include "script_component.hpp"
 /*
  * File: initSettings.sqf
  * Author: Mildly_Interested
