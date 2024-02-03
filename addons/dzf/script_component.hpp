@@ -1,4 +1,3 @@
-#pragma sls disable file SQFVM-10005 //disable duplicate MACRO definition warning
 #define COMPONENT dzf
 #define COMPONENT_BEAUTIFIED DZF
 #include "\z\l6AA\addons\main\script_mod.hpp"

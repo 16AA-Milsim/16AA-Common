@@ -1,4 +1,3 @@
-#pragma sls disable file SQFVM-10005 //disable duplicate MACRO definition warning
 // #include "script_component.hpp"
 [
     QGVAR(enabled),
