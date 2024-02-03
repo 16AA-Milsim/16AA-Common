@@ -23,7 +23,7 @@ if (!isServer && {hasInterface}) exitWith {
 
     nil
 };
-
+//TODO this here runs on the server after player connects, does it run?
 if ([_uid] call FUNC(hasDisconnected)) exitWith {
     INFO_1("%1 has disconnected previously, loading saved data.",name _unit);
     private _save = [_uid] call FUNC(getPlayerData);
