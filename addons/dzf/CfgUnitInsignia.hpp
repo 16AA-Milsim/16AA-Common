@@ -18,7 +18,7 @@
 
 class CfgUnitInsignia
 {
-
+// S = small, L = Large, W = Wide
 // 16 AIR ASSAULT EAGLE BADGE
 
 	class 16aa_s_eagle_tcol
@@ -150,7 +150,7 @@ class CfgUnitInsignia
 		textureVehicle = "";
 	};
 
-	
+
 // 1 PLATOON
 
 	class 16aa_s_1pl_dzf
@@ -647,11 +647,11 @@ class CfgUnitInsignia
 		textureVehicle = "";
 	};
 
-	class 16aa_l_fst_dzf
+	class 16aa_l_jfist_dzf
 	{
-		displayName = "16AA (L) FST";
+		displayName = "16AA (L) JFIST";
 		author = "16AA";
-		texture = "z\l6AA\addons\dzf\icons\l_fst.paa";
+		texture = "z\l6AA\addons\dzf\icons\l_jfist.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 		textureVehicle = "";
 	};
@@ -731,7 +731,7 @@ class CfgUnitInsignia
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 		textureVehicle = "";
 	};
-	
+
 	class 16aa_w_ds_mi_dzf
 	{
 		displayName = "16AA (W) MilitaryInt DesertSubdued";
@@ -787,7 +787,7 @@ class CfgUnitInsignia
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 		textureVehicle = "";
 	};
-	
+
 	class 16aa_w_ds_itc_dzf
 	{
 		displayName = "16AA (W) ITC DesertSubdued";
