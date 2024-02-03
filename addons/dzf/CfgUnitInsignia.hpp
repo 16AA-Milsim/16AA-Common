@@ -1,4 +1,3 @@
-#include "script_component.hpp"
 /*
  * File: CfgUnitInsignia.hpp
  * Author: Mildly_Interested
