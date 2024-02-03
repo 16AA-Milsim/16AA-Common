@@ -3,7 +3,7 @@
  * File: CfgUnitInsignia.hpp
  * Author: Mildly_Interested
  * Date: 2023-10-21
- * Last Update: 2023-10-21
+ * Last Update: 2024-02-03
  * License: GNU General Public License v3.0 only - https://www.gnu.org/licenses/gpl-3.0-standalone.html
  *
  * Defines the unit insignias.
@@ -142,6 +142,15 @@ class CfgUnitInsignia
         textureVehicle = "";
     };
 
+    class 16aa_l_hq_dzf
+    {
+        displayName = "16AA L HQ";
+        author = "16AA";
+        texture = "z\l6AA\addons\dzf\icons\l_hq.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
 
 // 1 PLATOON
 
@@ -186,6 +195,15 @@ class CfgUnitInsignia
         displayName = "16AA (W) 1Platoon Mono";
         author = "16AA";
         texture = "z\l6AA\addons\dzf\icons\w_mo+1pl.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
+    class 16aa_l_1pl_dzf
+    {
+        displayName = "16AA L 1Platoon";
+        author = "16AA";
+        texture = "z\l6AA\addons\dzf\icons\l_1pl.paa";
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
@@ -237,6 +255,15 @@ class CfgUnitInsignia
         textureVehicle = "";
     };
 
+    class 16aa_l_2pl_dzf
+    {
+        displayName = "16AA L 2Platoon";
+        author = "16AA";
+        texture = "z\l6AA\addons\dzf\icons\l_2pl.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
 // 3 PLATOON
 
     class 16aa_3pl_dzf
@@ -284,6 +311,15 @@ class CfgUnitInsignia
         textureVehicle = "";
     };
 
+    class 16aa_l_3pl_dzf
+    {
+        displayName = "16AA L 3Platoon";
+        author = "16AA";
+        texture = "z\l6AA\addons\dzf\icons\l_3pl.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
 // 4 PLATOON
 
     class 16aa_4pl_dzf
@@ -327,6 +363,15 @@ class CfgUnitInsignia
         displayName = "16AA (W) 4Platoon Mono";
         author = "16AA";
         texture = "z\l6AA\addons\dzf\icons\w_mo+4pl.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
+    class 16aa_l_4pl_dzf
+    {
+        displayName = "16AA L 4Platoon";
+        author = "16AA";
+        texture = "z\l6AA\addons\dzf\icons\l_4pl.paa";
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
@@ -379,6 +424,15 @@ class CfgUnitInsignia
         textureVehicle = "";
     };
 
+    class 16aa_l_13aasr_dzf
+    {
+        displayName = "16AA L 13AASR";
+        author = "16AA";
+        texture = "z\l6AA\addons\dzf\icons\l_13aasr.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
 // 16 CLOSE SUPPORT MEDICAL REGIMENT
 
     class 16aa_16csmr_dzf
@@ -422,6 +476,15 @@ class CfgUnitInsignia
         displayName = "16AA (W) 16CSMR Mono";
         author = "16AA";
         texture = "z\l6AA\addons\dzf\icons\w_mo+16csmr.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
+    class 16aa_l_16csmr_dzf
+    {
+        displayName = "16AA L 16CSMR";
+        author = "16AA";
+        texture = "z\l6AA\addons\dzf\icons\l_16csmr.paa";
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
@@ -473,6 +536,15 @@ class CfgUnitInsignia
         textureVehicle = "";
     };
 
+    class 16aa_l_216ps_dzf
+    {
+        displayName = "16AA L 216ParaSignals";
+        author = "16AA";
+        texture = "z\l6AA\addons\dzf\icons\l_216ps.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
 // JOINT HELICOPTER COMMAND
 
     class 16aa_jhc_dzf
@@ -520,6 +592,15 @@ class CfgUnitInsignia
         textureVehicle = "";
     };
 
+    class 16aa_l_jhc_dzf
+    {
+        displayName = "16AA L JointHelicopterCommand";
+        author = "16AA";
+        texture = "z\l6AA\addons\dzf\icons\l_jhc.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
 // JOINT FIRE SUPPORT TEAM
 
     class 16aa_jfist_dzf
@@ -563,6 +644,15 @@ class CfgUnitInsignia
         displayName = "16AA (W) JFIST Mono";
         author = "16AA";
         texture = "z\l6AA\addons\dzf\icons\w_mo+jfist.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
+    class 16aa_l_jfist_dzf
+    {
+        displayName = "16AA L JFIST";
+        author = "16AA";
+        texture = "z\l6AA\addons\dzf\icons\l_jfist.paa";
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
@@ -657,6 +747,15 @@ class CfgUnitInsignia
         displayName = "16AA (W) MissionInt Mono";
         author = "16AA";
         texture = "z\l6AA\addons\dzf\icons\w_mo+mi.paa";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
+    class 16aa_l_mi_dzf
+    {
+        displayName = "16AA L MissionInt";
+        author = "16AA";
+        texture = "z\l6AA\addons\dzf\icons\l_mi.paa";
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
