@@ -31,7 +31,7 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'1 Plt HQ','1-1','1-2','1-3'"],
     1,
-    nil,
+    {GVAR(1plt_group_array) = parseSimpleArray format ["[%1]", GVAR(1plt_group)];},
     true
 ] call CBA_fnc_addSetting;
 
@@ -46,7 +46,7 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'2 Plt HQ','2-1','2-2','2-3'"],
     1,
-    nil,
+    {GVAR(2plt_group_array) = parseSimpleArray format ["[%1]", GVAR(2plt_group)];},
     true
 ] call CBA_fnc_addSetting;
 
@@ -61,7 +61,7 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'3 Plt HQ','3-1','3-2','3-3'"],
     1,
-    nil,
+    {GVAR(3plt_group_array) = parseSimpleArray format ["[%1]", GVAR(3plt_group)];},
     true
 ] call CBA_fnc_addSetting;
 
@@ -76,7 +76,7 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'4 Plt HQ','4-1'"],
     1,
-    nil,
+    {GVAR(4plt_group_array) = parseSimpleArray format ["[%1]", GVAR(4plt_group)];},
     true
 ] call CBA_fnc_addSetting;
 
@@ -91,7 +91,7 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'4-3'"],
     1,
-    nil,
+    {GVAR(13aasr_group_array) = parseSimpleArray format ["[%1]", GVAR(13aasr_group)];},
     true
 ] call CBA_fnc_addSetting;
 
@@ -106,7 +106,7 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'4-4'"],
     1,
-    nil,
+    {GVAR(16csmr_group_array) = parseSimpleArray format ["[%1]", GVAR(16csmr_group)];},
     true
 ] call CBA_fnc_addSetting;
 
@@ -121,7 +121,7 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'7-0'"],
     1,
-    nil,
+    {GVAR(jfist_group_array) = parseSimpleArray format ["[%1]", GVAR(jfist_group)];},
     true
 ] call CBA_fnc_addSetting;
 
@@ -136,7 +136,7 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'Coy HQ'"],
     1,
-    nil,
+    {GVAR(hq_group_array) = parseSimpleArray format ["[%1]", GVAR(hq_group)];},
     true
 ] call CBA_fnc_addSetting;
 
@@ -151,7 +151,7 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'ITC'"],
     1,
-    nil,
+    {GVAR(itc_group_array) = parseSimpleArray format ["[%1]", GVAR(itc_group)];},
     true
 ] call CBA_fnc_addSetting;
 
@@ -166,7 +166,7 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'JHC'"],
     1,
-    nil,
+    {GVAR(jhc_group_array) = parseSimpleArray format ["[%1]", GVAR(jhc_group)];},
     true
 ] call CBA_fnc_addSetting;
 
@@ -181,6 +181,6 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'MI'"],
     1,
-    nil,
+    {GVAR(mi_group_array) = parseSimpleArray format ["[%1]", GVAR(mi_group)];},
     true
 ] call CBA_fnc_addSetting;
