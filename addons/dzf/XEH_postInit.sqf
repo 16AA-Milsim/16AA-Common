@@ -1,3 +1,5 @@
 #include "script_component.hpp"
 
-call FUNC(convertStringsToArray);
+["CBA_settingsInitialized", {
+    [] call FUNC(convertStringsToArray);
+}] call CBA_fnc_addEventHandler;
