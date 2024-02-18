@@ -18,4 +18,4 @@ class CfgFunctions
 			class open_CAP {};
 		};
 	};
-}
+};
