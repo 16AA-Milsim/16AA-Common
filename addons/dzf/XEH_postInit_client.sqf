@@ -2,5 +2,7 @@
 
 // only executed on client
 
-call FUNC(setUnitInsignia);
+[{!isNil QGVAR(mi_group_array)}, {
+    [] call FUNC(setUnitInsignia);
+}] call CBA_fnc_waitUntilAndExecute;
 call FUNC(restoreUnitInsignia);
