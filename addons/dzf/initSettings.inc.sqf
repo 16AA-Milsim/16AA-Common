@@ -2,7 +2,7 @@
  * File: initSettings.sqf
  * Author: Mildly_Interested
  * Date: 2023-10-21
- * Last Update: 2024-02-17
+ * Last Update: 2024-02-18
  * License: GNU General Public License v3.0 only - https://www.gnu.org/licenses/gpl-3.0-standalone.html
  *
  * Sets up CBA settings for the DZF submodule.
@@ -35,6 +35,21 @@ private _category = "16AA - Drop Zone Flashes";
     true
 ] call CBA_fnc_addSetting;
 
+//Which DZF should 1plt get
+[
+    QGVAR(1plt_set),
+    "EDITBOX",
+    [
+        "1 PLT DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_1pl_dzf"],
+    1,
+    nil,
+    true
+] call CBA_fnc_addSetting;
+
 //Which groups are defined as 2plt
 [
     QGVAR(2plt_group),
@@ -47,6 +62,21 @@ private _category = "16AA - Drop Zone Flashes";
     ["'2 Plt HQ','2-1','2-2','2-3'"],
     1,
     {GVAR(2plt_group_array) = parseSimpleArray format ["[%1]", GVAR(2plt_group)];},
+    true
+] call CBA_fnc_addSetting;
+
+//Which DZF should 2plt get
+[
+    QGVAR(2plt_set),
+    "EDITBOX",
+    [
+        "2 PLT DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_2pl_dzf"],
+    1,
+    nil,
     true
 ] call CBA_fnc_addSetting;
 
@@ -65,6 +95,21 @@ private _category = "16AA - Drop Zone Flashes";
     true
 ] call CBA_fnc_addSetting;
 
+//Which DZF should 3plt get
+[
+    QGVAR(3plt_set),
+    "EDITBOX",
+    [
+        "3 PLT DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_3pl_dzf"],
+    1,
+    nil,
+    true
+] call CBA_fnc_addSetting;
+
 //Which groups are defined as 4plt
 [
     QGVAR(4plt_group),
@@ -77,6 +122,21 @@ private _category = "16AA - Drop Zone Flashes";
     ["'4 Plt HQ','4-1'"],
     1,
     {GVAR(4plt_group_array) = parseSimpleArray format ["[%1]", GVAR(4plt_group)];},
+    true
+] call CBA_fnc_addSetting;
+
+//Which DZF should 4plt get
+[
+    QGVAR(4plt_set),
+    "EDITBOX",
+    [
+        "4 PLT DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_4pl_dzf"],
+    1,
+    nil,
     true
 ] call CBA_fnc_addSetting;
 
@@ -95,6 +155,21 @@ private _category = "16AA - Drop Zone Flashes";
     true
 ] call CBA_fnc_addSetting;
 
+//Which DZF should 13AASR get
+[
+    QGVAR(13aasr_set),
+    "EDITBOX",
+    [
+        "13AASR DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_13aasr_dzf"],
+    1,
+    nil,
+    true
+] call CBA_fnc_addSetting;
+
 //Which groups are defined as 16CSMR
 [
     QGVAR(16csmr_group),
@@ -107,6 +182,21 @@ private _category = "16AA - Drop Zone Flashes";
     ["'4-4'"],
     1,
     {GVAR(16csmr_group_array) = parseSimpleArray format ["[%1]", GVAR(16csmr_group)];},
+    true
+] call CBA_fnc_addSetting;
+
+//Which DZF should 16CSMR get
+[
+    QGVAR(16csmr_set),
+    "EDITBOX",
+    [
+        "16CSMR DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_16csmr_dzf"],
+    1,
+    nil,
     true
 ] call CBA_fnc_addSetting;
 
@@ -125,6 +215,21 @@ private _category = "16AA - Drop Zone Flashes";
     true
 ] call CBA_fnc_addSetting;
 
+//Which DZF should JFIST get
+[
+    QGVAR(jfist_set),
+    "EDITBOX",
+    [
+        "JFIST DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_jfist_dzf"],
+    1,
+    nil,
+    true
+] call CBA_fnc_addSetting;
+
 //Which groups are defined as Coy HQ
 [
     QGVAR(hq_group),
@@ -137,6 +242,21 @@ private _category = "16AA - Drop Zone Flashes";
     ["'Coy HQ'"],
     1,
     {GVAR(hq_group_array) = parseSimpleArray format ["[%1]", GVAR(hq_group)];},
+    true
+] call CBA_fnc_addSetting;
+
+//Which DZF should Coy HQ get
+[
+    QGVAR(hq_set),
+    "EDITBOX",
+    [
+        "Coy HQ DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_hq_dzf"],
+    1,
+    nil,
     true
 ] call CBA_fnc_addSetting;
 
@@ -155,6 +275,21 @@ private _category = "16AA - Drop Zone Flashes";
     true
 ] call CBA_fnc_addSetting;
 
+//Which DZF should ITC get
+[
+    QGVAR(itc_set),
+    "EDITBOX",
+    [
+        "ITC DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_itc_dzf"],
+    1,
+    nil,
+    true
+] call CBA_fnc_addSetting;
+
 //Which groups are defined as JHC
 [
     QGVAR(jhc_group),
@@ -170,6 +305,21 @@ private _category = "16AA - Drop Zone Flashes";
     true
 ] call CBA_fnc_addSetting;
 
+//Which DZF should JHC get
+[
+    QGVAR(jhc_set),
+    "EDITBOX",
+    [
+        "JHC DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_jhc_dzf"],
+    1,
+    nil,
+    true
+] call CBA_fnc_addSetting;
+
 //Which groups are defined as MI
 [
     QGVAR(mi_group),
@@ -182,5 +332,35 @@ private _category = "16AA - Drop Zone Flashes";
     ["'MI'"],
     1,
     {GVAR(mi_group_array) = parseSimpleArray format ["[%1]", GVAR(mi_group)];},
+    true
+] call CBA_fnc_addSetting;
+
+//Which DZF should MI get
+[
+    QGVAR(mi_set),
+    "EDITBOX",
+    [
+        "MI DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_mi_dzf"],
+    1,
+    nil,
+    true
+] call CBA_fnc_addSetting;
+
+//Which DZF should every other group get? (Default)
+[
+    QGVAR(default_set),
+    "EDITBOX",
+    [
+        "Default DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    [""],
+    1,
+    nil,
     true
 ] call CBA_fnc_addSetting;
