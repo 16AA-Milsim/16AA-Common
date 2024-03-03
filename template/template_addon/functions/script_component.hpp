@@ -1,1 +1,1 @@
-#include "\z\l6AA\addons\logging\script_component.hpp"
+#include "\z\l6AA\addons\template_addon\script_component.hpp"
