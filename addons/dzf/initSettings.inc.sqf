@@ -389,7 +389,7 @@ private _category = "16AA - Drop Zone Flashes";
         "Copy paste the insignia class name found in the arsenal"
     ],
     _category,
-    [""],
+    ["16aa_s_eagle_gsub"],
     1,
     nil,
     true
