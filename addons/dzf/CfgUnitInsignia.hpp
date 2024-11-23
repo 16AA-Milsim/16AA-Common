@@ -2,7 +2,7 @@
  * File: CfgUnitInsignia.hpp
  * Author: Mildly_Interested
  * Date: 2023-10-21
- * Last Update: 2024-02-03
+ * Last Update: 2024-11-23
  * License: GNU General Public License v3.0 only - https://www.gnu.org/licenses/gpl-3.0-standalone.html
  *
  * Defines the unit insignias.
@@ -652,6 +652,62 @@ class CfgUnitInsignia
 		displayName = "16AA (L) JFIST";
 		author = "16AA";
 		texture = "z\l6AA\addons\dzf\icons\l_jfist.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
+// 7 ROYAL HORSE ARTILLERY
+
+	class 16aa_s_7rha_dzf
+	{
+		displayName = "16AA (S) 7RHA";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\s_7rha.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
+	class 16aa_w_tc_7rha_dzf
+	{
+		displayName = "16AA (W) 7RHA TrueColour";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\w_tc+7rha.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
+	class 16aa_w_gs_7rha_dzf
+	{
+		displayName = "16AA (W) 7RHA GreenSubdued";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\w_gs+7rha.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
+	class 16aa_w_ds_7rha_dzf
+	{
+		displayName = "16AA (W) 7RHA DesertSubdued";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\w_ds+7rha.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
+	class 16aa_w_mo_7rha_dzf
+	{
+		displayName = "16AA (W) 7RHA Mono";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\w_mo+7rha.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
+	class 16aa_l_7rha_dzf
+	{
+		displayName = "16AA (L) 7RHA";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\l_7rha.paa";
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
 		textureVehicle = "";
 	};
