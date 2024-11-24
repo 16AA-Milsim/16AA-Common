@@ -2,7 +2,7 @@
  * File: initSettings.sqf
  * Author: Mildly_Interested
  * Date: 2023-10-21
- * Last Update: 2024-02-18
+ * Last Update: 2024-11-23
  * License: GNU General Public License v3.0 only - https://www.gnu.org/licenses/gpl-3.0-standalone.html
  *
  * Sets up CBA settings for the DZF submodule.
@@ -230,6 +230,36 @@ private _category = "16AA - Drop Zone Flashes";
     true
 ] call CBA_fnc_addSetting;
 
+//Which groups are defined as 7RHA
+[
+    QGVAR(7rha_group),
+    "EDITBOX",
+    [
+        "7RHA Groups",
+        "In format: 'group1','group2', ...."
+    ],
+    _category,
+    ["'7RHA'"],
+    1,
+    nil,
+    true
+] call CBA_fnc_addSetting;
+
+//Which DZF should 7RHA get
+[
+    QGVAR(7rha_set),
+    "EDITBOX",
+    [
+        "7RHA DZF",
+        "Copy paste the insignia class name found in the arsenal"
+    ],
+    _category,
+    ["16aa_l_7rha_dzf"],
+    1,
+    nil,
+    true
+] call CBA_fnc_addSetting;
+
 //Which groups are defined as Coy HQ
 [
     QGVAR(hq_group),
@@ -359,7 +389,7 @@ private _category = "16AA - Drop Zone Flashes";
         "Copy paste the insignia class name found in the arsenal"
     ],
     _category,
-    [""],
+    ["16aa_s_eagle_gsub"],
     1,
     nil,
     true
