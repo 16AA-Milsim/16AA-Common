@@ -3,7 +3,7 @@
  * File: fnc_setUnitInsignia.sqf
  * Author: Mildly_Interested
  * Date: 2023-10-21
- * Last Update: 2024-02-18
+ * Last Update: 2024-11-24
  * License: GNU General Public License v3.0 only - https://www.gnu.org/licenses/gpl-3.0-standalone.html
  *
  * Get group of player and assign insignia accordingly.
@@ -33,7 +33,7 @@ switch true do {
     case (_group_player in GVAR(itc_group_array)): {[player,GVAR(itc_set)] call BIS_fnc_setUnitInsignia;};
     case (_group_player in GVAR(jhc_group_array)): {[player,GVAR(jhc_set)] call BIS_fnc_setUnitInsignia;};
     case (_group_player in GVAR(mi_group_array)): {[player,GVAR(mi_set)] call BIS_fnc_setUnitInsignia;};
-    default {[player,QGVAR(default_set)] call BIS_fnc_setUnitInsignia;};
+    default {[player,GVAR(default_set)] call BIS_fnc_setUnitInsignia;};
 };
 
 true
