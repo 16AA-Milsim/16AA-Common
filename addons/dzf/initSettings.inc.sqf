@@ -241,7 +241,7 @@ private _category = "16AA - Drop Zone Flashes";
     _category,
     ["'7RHA'"],
     1,
-    nil,
+    {GVAR(7rha_group_array) = parseSimpleArray format ["[%1]", GVAR(7rha_group)];},
     true
 ] call CBA_fnc_addSetting;
 
