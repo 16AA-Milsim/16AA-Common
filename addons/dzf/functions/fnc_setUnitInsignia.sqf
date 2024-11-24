@@ -29,6 +29,7 @@ switch true do {
     case (_group_player in GVAR(13aasr_group_array)): {[player,GVAR(13aasr_set)] call BIS_fnc_setUnitInsignia;};
     case (_group_player in GVAR(16csmr_group_array)): {[player,GVAR(16csmr_set)] call BIS_fnc_setUnitInsignia;};
     case (_group_player in GVAR(jfist_group_array)): {[player,GVAR(jfist_set)] call BIS_fnc_setUnitInsignia;};
+    case (_group_player in GVAR(7rha_group_array)): {[player,GVAR(7rha_set)] call BIS_fnc_setUnitInsignia;};
     case (_group_player in GVAR(hq_group_array)): {[player,GVAR(hq_set)] call BIS_fnc_setUnitInsignia;};
     case (_group_player in GVAR(itc_group_array)): {[player,GVAR(itc_set)] call BIS_fnc_setUnitInsignia;};
     case (_group_player in GVAR(jhc_group_array)): {[player,GVAR(jhc_set)] call BIS_fnc_setUnitInsignia;};
