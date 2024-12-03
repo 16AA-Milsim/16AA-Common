@@ -5,7 +5,7 @@ Various images to be used for flags. All available flags are in  [addons\flags\d
 The in game path is `z\l6AA\addons\flags\data\image_name.paa`.  
 Example script to be used in a flag poles init field:
 ```sqf
-_this setFlagTexture "z\l6AA\addons\flags\data\1plhq.paa";
+this setFlagTexture "z\l6AA\addons\flags\data\1plhq.paa";
 ```
 
 ## Authors
