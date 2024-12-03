@@ -871,6 +871,62 @@ class CfgUnitInsignia
 		textureVehicle = "";
 	};
 
+// ROYAL ARMY MEDICAL CORPS
+
+	class 16aa_s_ramc_dzf
+	{
+		displayName = "16AA (S) RAMC";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\s_ramc.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
+	class 16aa_w_tc_ramc_dzf
+	{
+		displayName = "16AA (W) RAMC TrueColour";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\w_tc+ramc.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
+	class 16aa_w_gs_ramc_dzf
+	{
+		displayName = "16AA (W) RAMC GreenSubdued";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\w_gs+ramc.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
+	class 16aa_w_ds_ramc_dzf
+	{
+		displayName = "16AA (W) RAMC DesertSubdued";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\w_ds+ramc.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
+	class 16aa_w_mo_ramc_dzf
+	{
+		displayName = "16AA (W) RAMC Mono";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\w_mo+ramc.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
+	class 16aa_l_ramc_dzf
+	{
+		displayName = "16AA (L) RAMC";
+		author = "16AA";
+		texture = "z\l6AA\addons\dzf\icons\l_ramc.paa";
+		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+		textureVehicle = "";
+	};
+
 // ROYAL LOGISTICS CORPS
 	class 16aa_w_gs_rlc_dzf
 	{
