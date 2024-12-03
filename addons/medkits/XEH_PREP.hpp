@@ -1,0 +1,11 @@
+PREP(open_BANDAGES);
+PREP(open_CAP);
+PREP(open_CONSUMABLES);
+PREP(open_CONSUMABLES2);
+PREP(open_DRUGS);
+PREP(open_DRUGS2);
+PREP(open_IFAK);
+PREP(open_IFAK2);
+PREP(open_MASCAS);
+PREP(open_Surgery);
+PREP(open_Transfusion);
